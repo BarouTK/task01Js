@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+
+header{
+    
+    
+    height: 100px;
+}
+
+.gradient{
+    background: linear-gradient(271deg,#e99757,#5700b5,#aa5831,#59f866);
+    background-size: 240% 240%;
+    animation: gradient-animation 8s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .nav-item{
+    margin:20px
+  }
+
+  .nav-item:hover{
+    transform: scale(1.5);
+    
+  }
+
+
+
+
+
+
+
+
+.logo{
+    
+    padding: 15px;
+}
+
+
+
+.wave{
+   
+    position: relative;
+    color: aliceblue;
+    font-size: 4rem;
+    text-align: center;
+    width: 100%;
+    padding: 40px;
+
+  
+  }
+
+    
+    .fondo{
+      background-image: url(../assets/skyline.jpg);
+      min-height: 20vh;
+      
+      background-size: cover;
+
+    }
+
+
+    .BotonFormulario{
+      position: relative;
+      left: 93%;
+    }
+
+  
+    
+
+
+
+
+
+
+
+
+.thumbnail{
+    align-items: center;
+    
+}
+
+.arrow{
+    transform: rotate(180deg);
+}
+
+
+
+.card-title{
+  text-align: center;
+}
+
+.precio{
+  align-content:center;
+}
+
+
+
+.fa-brands{
+    font-size: 50px;
+    margin: 20px;
+    
+    
+}
+
+.fa-brands:hover{
+  transform: scale(1.5);
+}
+
+
+
+.cohort{
+    font-size: 50px;
+    
+}
+
+footer{
+  height: 115px;
+}
+
+.posicion{
+  position: relative;
+  top: 150px;
+}
+
+
+.btn{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.border{
+  border-style: solid;
+  border-width: 2px;
+
+}
+
+.imgDetails{
+  height: 350px;
+  
+}

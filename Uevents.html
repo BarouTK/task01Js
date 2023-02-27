@@ -5,11 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="assets/Logo Amazing Events.png" type="image/x-icon">
-    <link
-      rel="stylesheet"
-      href="https://kit.fontawesome.com/d5b473ce33.css"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://kit.fontawesome.com/d5b473ce33.css" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -21,7 +17,7 @@
     <title>Amazing Events!</title>
   </head>
   <body>
-    <div class="container-fluid m-0 py-0">
+    <div class="container-fluid  m-0 py-0">
       <header class="row gradient">
         <img
           src="./assets/Logo Amazing Events.png"
@@ -47,10 +43,7 @@
             >
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="./index.html"
+                  <a class="nav-link active" aria-current="page" href="./index.html"
                     >Home</a
                   >
                 </li>
@@ -58,9 +51,7 @@
                   <a class="nav-link active" href="#">Upcoming Events</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="./Pevents.html"
-                    >Past Events</a
-                  >
+                  <a class="nav-link active" href="./Pevents.html">Past Events</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="./details.html">Details</a>
@@ -85,15 +76,14 @@
       <!-- Banner + Links -->
       <div class="container-fluid fondo">
         <div class="row align-items-center">
-          <a href="./index.html" class="col-1"
+          <a href="./Uevents.html" class="col-1"
             ><img
               src="./assets/arrow.png"
-              class="img-fluid img-thumbnail arrow flecha"
+              class="img-fluid img-thumbnail arrow"
               alt=""
           /></a>
-          
-          <h2 class="col-10 wave d-flex justify-content-center align-items-center ">UPCOMING EVENTS</h2>
-          <a href="./Pevents.html" class="col-1"
+          <h2 class="col-10 wave">UPCOMING EVENTS</h2>
+          <a href="./details.html" class="col-1"
             ><img
               src="./assets/arrow.png"
               class="img-fluid img-thumbnail"
@@ -105,34 +95,35 @@
 
     <!-- Main -->
     <main class="container-fluid">
-      <div class="row py-3">
-        <div class="col-sm-8 col-md-8  d-flex  justify-content-center">
-          <form action="" method="get">
-            <fieldset class="container">
-              <label for="category">Category</label>
-              <input type="checkbox" />
-              <label for="category">Category</label>
-              <input type="checkbox" />
-              <label for="category">Category</label>
-              <input type="checkbox" />
-              <label for="category">Category</label>
-              <input type="checkbox" />
-              <label for="category">Category</label>
-              <input type="checkbox" />
-            </fieldset>
-          </form>
-        </div>
-        <div class="col-sm-4">
-          <form action="" method="get">
-            <fieldset class="container">
-              <input type="text" />
-              <label for="text"></label>
-              <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-            </fieldset>
-          </form>
-        </div>
-      </div>
+        <div class="row py-3">
+            <div class="col-sm-8 col-md-8  d-flex  justify-content-center">
+              <form action="" method="get">
+                <fieldset class="container">
+                  <label for="category">Category</label>
+                  <input type="checkbox" />
+                  <label for="category">Category</label>
+                  <input type="checkbox" />
+                  <label for="category">Category</label>
+                  <input type="checkbox" />
+                  <label for="category">Category</label>
+                  <input type="checkbox" />
+                  <label for="category">Category</label>
+                  <input type="checkbox" />
+                </fieldset>
+              </form>
+            </div>
+            <div class="col-sm-4">
+              <form action="" method="get">
+                <fieldset class="container">
+                  <input type="text" />
+                  <label for="text"></label>
+                  <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                </fieldset>
+              </form>
+            </div>
+          </div>
 
+      <!-- Card -->
       <!-- Card -->
       <div class="container">
         <div class="row justify-content-around my-5">
@@ -140,17 +131,18 @@
             <img
               src="./assets/Cinema.jpg"
               class="card-img-top"
+              id="ImagenU1"
               alt="cinema"
             />
             <div class="card-body row">
-              <h5 class="card-title">Titulo</h5>
-              <p class="card-text row">
+              <h5 class="card-title" id="TituloU1">Titulo</h5>
+              <p class="card-text row" id="ParrafoU1">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
 
               <div class="container row align-items-center">
-                <h4 class="col-6">$9999.0</h4>
+                <h4 class="col-6" id="PrecioU1">$9999.0</h4>
                 <a href="./details.html" class="btn btn-primary col-6"> Ver mas... </a>
               </div>
             </div>
@@ -160,16 +152,17 @@
               src="./assets/Costume_Party.jpg"
               class="card-img-top"
               alt="party"
+              id="ImagenU2"
             />
             <div class="card-body row">
-              <h5 class="card-title">Titulo</h5>
-              <p class="card-text row">
+              <h5 class="card-title" id="TituloU2">Titulo</h5>
+              <p class="card-text row" id="ParrafoU2">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
 
               <div class="container row align-items-center">
-                <h4 class="col-6">$9999.0</h4>
+                <h4 class="col-6" id="PrecioU2">$9999.0</h4>
                 <a href="./details.html" class="btn btn-primary col-6"> Ver mas... </a>
               </div>
             </div>
@@ -178,17 +171,18 @@
             <img
               src="./assets/Food_Fair.jpg"
               class="card-img-top"
+              id="ImagenU3"
               alt="Food Fair"
             />
             <div class="card-body row">
-              <h5 class="card-title">Titulo</h5>
-              <p class="card-text row">
+              <h5 class="card-title" id="TituloU3">Titulo</h5>
+              <p class="card-text row" id="ParrafoU3">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
 
               <div class="container row align-items-center">
-                <h4 class="col-6">$9999.0</h4>
+                <h4 class="col-6" id="PrecioU3">$9999.0</h4>
                 <a href="./details.html" class="btn btn-primary col-6"> Ver mas... </a>
               </div>
             </div>
@@ -197,44 +191,115 @@
             <img
               src="./assets/Music_Concert.jpg"
               class="card-img-top"
+              id="ImagenU4"
               alt="..."
             />
             <div class="card-body row">
-              <h5 class="card-title">Titulo</h5>
-              <p class="card-text row">
+              <h5 class="card-title" id="TituloU4">Titulo</h5>
+              <p class="card-text row" id="ParrafoU4">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
 
               <div class="container row align-items-center">
-                <h4 class="col-6">$9999.0</h4>
+                <h4 class="col-6" id="PrecioU4">$9999.0</h4>
                 <a href="./details.html" class="btn btn-primary col-6"> Ver mas... </a>
               </div>
             </div>
+
+            
+          </div>
+          <div class="card col-3" style="width: 20rem">
+            <img
+              src="./assets/Music_Concert.jpg"
+              class="card-img-top"
+              id="ImagenU5"
+              alt="..."
+            />
+            <div class="card-body row">
+              <h5 class="card-title" id="TituloU5">Titulo</h5>
+              <p class="card-text row" id="ParrafoU5">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+
+              <div class="container row align-items-center">
+                <h4 class="col-6" id="PrecioU5">$9999.0</h4>
+                <a href="./details.html" class="btn btn-primary col-6"> Ver mas... </a>
+              </div>
+            </div>
+
+            
+          </div>
+
+          <div class="card col-3" style="width: 20rem">
+            <img
+              src="./assets/Music_Concert.jpg"
+              class="card-img-top"
+              id="ImagenU6"
+              alt="..."
+            />
+            <div class="card-body row">
+              <h5 class="card-title" id="TituloU6">Titulo</h5>
+              <p class="card-text row" id="ParrafoU6">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+
+              <div class="container row align-items-center">
+                <h4 class="col-6" id="PrecioU6">$9999.0</h4>
+                <a href="./details.html" class="btn btn-primary col-6"> Ver mas... </a>
+              </div>
+            </div>
+
+            
+          </div>
+
+          <div class="card col-3" style="width: 20rem">
+            <img
+              src="./assets/Music_Concert.jpg"
+              class="card-img-top"
+              id="ImagenU7"
+              alt="..."
+            />
+            <div class="card-body row">
+              <h5 class="card-title" id="TituloU7">Titulo</h5>
+              <p class="card-text row" id="ParrafoU7">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+
+              <div class="container row align-items-center">
+                <h4 class="col-6" id="PrecioU7">$9999.0</h4>
+                
+                <a href="./details.html" class="btn btn-primary col-6"> Ver mas... </a>
+              </div>
+            </div>
+
+            
           </div>
         </div>
       </div>
     </main>
 
-    <footer class="gradient">
-      <div class="container">
-        <div class="row d-flex align-items-center">
-          <div class="col-sm-8">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-          </div>
-          <div class="col-sm-4">
-            <h2 class="cohort display-4">Cohort</h2>
-          </div>
+    <footer class=" gradient ">
+        <div class="container aling-content-bottom">
+            <div class="row d-flex align-items-center    ">
+                <div class="col-8">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+                <div class="col-4">
+                    <h2 class="cohort display-4">Cohort</h2>
+                </div>
+              </div>
         </div>
-      </div>
     </footer>
 
-    <script
-      src="https://kit.fontawesome.com/d5b473ce33.js"
-      crossorigin="anonymous"
-    ></script>
+     <script src="./scripts/task4.js"></script>
+     <script src="./scripts/uevents.js"></script>
+    <script src="https://kit.fontawesome.com/d5b473ce33.js" crossorigin="anonymous"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

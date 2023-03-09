@@ -300,4 +300,5 @@ precio_2.innerHTML = `$${pastEvents[1].price}`;
  precio_7.innerHTML = `$${pastEvents[6].price}`;
 
 
- 
+
+

@@ -91,3 +91,24 @@ imagenU7.src = futureEvents[6].image;
 tituloU7.innerHTML = futureEvents[6].name;
 parrafoU7.innerHTML = futureEvents[6].description;
 precioU7.innerHTML = `$${futureEvents[6].price}`;
+
+
+//Funcion buscadora sin repetir
+
+function uniqueFilter(arr, prop) {
+    return arr.reduce((acc, obj) => {
+    if (!acc.some(item => item[prop] === obj[prop])) {
+        acc.push(obj);
+    }
+    return acc;
+    }, []);
+}
+
+const uniqueCategories = uniqueFilter(data.events, 'place');
+console.log(uniqueCategories);
+
+
+
+
+
+

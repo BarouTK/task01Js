@@ -153,3 +153,9 @@ footer{
   height: 350px;
   
 }
+
+fieldset > label{
+
+  margin-left: 10px;
+  
+}

@@ -1,15 +1,18 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: content-box;
-}
-
-header{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     
-    
-    height: 100px;
 }
-
+img {
+    max-width: 100%;
+}
+header {
+    background-color: #d02d26;
+    text-align: center;
+    padding: 40px 20px;
+}
+/* Efecto degradado */
 .gradient{
     background: linear-gradient(271deg,#e99757,#5700b5,#aa5831,#59f866);
     background-size: 240% 240%;
@@ -27,135 +30,110 @@ header{
       background-position: 0% 50%;
     }
   }
+/* //////////////////////// */
 
-  .nav-item{
+/* Navbar */
+.nav-item{
     margin:20px
-  }
-
-  .nav-item:hover{
-    transform: scale(1.5);
-    
-  }
-
-
-
-
-
-
-
-
-.logo{
-    
-    padding: 15px;
 }
 
+.nav-item:hover{
+    transform: scale(1.5);
+    
+}
 
+  /* //////////////////// */
 
+/* fondo banner */
+.fondo{
+    background-image: url(../assets/skyline.jpg);
+    min-height: 20vh;
+    
+    background-size: cover;
+
+}
+/* /////////////////////////// */
+/* Title center */
 .wave{
-   
+
     position: relative;
     color: aliceblue;
     font-size: 4rem;
     text-align: center;
-    width: 100%;
-    padding: 40px;
-
-  
-  }
-
-    
-    .fondo{
-      background-image: url(../assets/skyline.jpg);
-      min-height: 20vh;
-      
-      background-size: cover;
-
-    }
+    padding: 10px;
 
 
-    .BotonFormulario{
-      position: relative;
-      left: 93%;
-    }
-
-  
-    
-
-
-
-
-
-
-
-
-.thumbnail{
-    align-items: center;
-    
 }
+/* ////////////////////////// */
 
+/* Arrow */
 .arrow{
     transform: rotate(180deg);
 }
+/* /////////////////// */
 
 
 
-.card-title{
-  text-align: center;
+
+
+
+
+
+.cards_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
 }
-
-.precio{
-  align-content:center;
+.cards {
+    flex-basis: 200px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    text-align: center;
 }
-
-
-
-.fa-brands{
-    font-size: 50px;
-    margin: 20px;
+.cards .category {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+}
+.cards .category span {
     
+    padding: 3px 7px;
+}
+.filters {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.filters .types_checkboxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+input[name=search] {
+    padding: 5px;
+    width: 50%;
     
+    font-size: 1.1rem;
 }
-
-.fa-brands:hover{
-  transform: scale(1.5);
+/* stats */
+table, td, th {
+    border: 1px solid #d02d26;
+    border-collapse: collapse;
 }
-
-
-
-.cohort{
-    font-size: 50px;
-    
+table {
+    margin: 30px auto;
 }
-
-footer{
-  height: 115px;
+td, th {
+    padding: 5px 10px;
 }
-
-.posicion{
-  position: relative;
-  top: 150px;
-}
-
-
-.btn{
-  display: flex;
-  justify-content: end;
-  align-items: end;
-}
-
-.border{
-  border-style: solid;
-  border-width: 2px;
-
-}
-
-.imgDetails{
-  height: 350px;
-  
-}
-
-fieldset > label{
-
-  margin-left: 10px;
-  
+th {
+    background-color: #c6d7e9;
 }
